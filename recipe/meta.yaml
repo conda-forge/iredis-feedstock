@@ -1,5 +1,5 @@
 {% set name = "iredis" %}
-{% set version = "1.12.1" %}
+{% set version = "1.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9cbc2ee3bc15e50aa0b62ca237d6db2b38e565d81de90b792a30658a9c115b54
+  sha256: d1e4e7936d0be456f70a39abeb1c97d931f66ccd60e891f4fd796ffb06dfeaf9
 
 build:
   noarch: python
